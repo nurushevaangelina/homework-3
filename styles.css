@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(0, 0, 255, 0.425);
+}
+div p {color: rgb(184, 199, 147);   
+}
+h1 {
+    padding: 10px;
+    color: rgb(63, 63, 125); /* same as #ff00ff */
+}
+p {
+    color: darkgreen; /* same as #bb5588 */
+}
+{box-sizing: border-box;}
+.caption-border {
+  width: 400px;
+  margin: 50px auto 0;
+  border: 5px solid #5e8a96;
+  background: white;
+  padding: 10px;
+}
+.caption-border img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.caption-border figcaption {
+  padding: 10px;
+  color: white;
+  background: #3623e5;
+  text-align: center;
+  text-transform: uppercase;
+}
+.center {
+    margin: auto;
+    background: rgb(64, 111, 129);
+    width: 66%;
+  }
+  
+  .outside {
+    margin: 3rem 0 0 -3rem;
+    background: cyan;
+    width: 66%;
+  }
+  span#identified {
+    background-color: rgb(13, 100, 187);
+  }
